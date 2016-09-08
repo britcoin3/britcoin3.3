@@ -11,17 +11,17 @@ Visit http://britcoin.xyz for more details
 
 - PoW + PoS Hybrid
 
-- PoW Ends at Block 20,000, estimated 7-10 days mining
+- PoW ended at Block 20,000, estimated 7-10 days mining
 
-- 10 Million Coins estimated in PoW phase (20 million total supply)
+- 10 million coins estimated in PoW phase
+
+- 30 million coins supply cap
 
 - 12 hours min stake age
 
 - 5% Annual Interest on Staked coins
 
-- No IPO
-
-- No Foundation
+- No IPO but 10 million coins being minted for fiat investor at block 1,020,000
 
 - 1% Premine for Bounties, Competitions and Giveaways (all spent now)
 
