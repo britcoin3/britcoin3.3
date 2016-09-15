@@ -3,7 +3,7 @@ DEFINES += FN1 FN2
 FN1 = britcoin
 win32:FN2 = -qt-win-v
 macx:FN2 = -qt-osx-v
-VERSION = 3.2.0.0
+VERSION = 3.3.0.0
 TARGET = $$FN1$$FN2$$VERSION
 INCLUDEPATH += src src/json \
     src/qt \
@@ -38,8 +38,8 @@ win32 {
     BOOST_LIB_PATH=C:/deps/boost_1_57_0/stage/lib
     BDB_INCLUDE_PATH=C:/deps/db-4.8.30.NC/build_unix
     BDB_LIB_PATH=C:/deps/db-4.8.30.NC/build_unix
-    OPENSSL_INCLUDE_PATH=C:/deps/openssl-1.0.1l/include
-    OPENSSL_LIB_PATH=C:/deps/openssl-1.0.1l
+    OPENSSL_INCLUDE_PATH=C:/deps/openssl-1.0.2a/include
+    OPENSSL_LIB_PATH=C:/deps/openssl-1.0.2a
     MINIUPNPC_INCLUDE_PATH=C:/deps/
     MINIUPNPC_LIB_PATH=C:/deps/miniupnpc-1.9.20150206
     QRENCODE_INCLUDE_PATH=C:/deps/qrencode-3.4.3

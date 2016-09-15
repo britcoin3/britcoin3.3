@@ -1,4 +1,4 @@
-# britcoin3.2
+# britcoin3.3
 Visit http://britcoin.xyz for more details
 
 ====================================
@@ -18,6 +18,8 @@ Visit http://britcoin.xyz for more details
 - 30 million coins supply cap
 
 - 12 hours min stake age
+
+- 2.5 years max stake age
 
 - 5% Annual Interest on Staked coins
 

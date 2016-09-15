@@ -12,7 +12,7 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <string.h>
-typedef long long  int64;
+typedef long long  int64;  // TODO: Check these. Can't I just use std::int64? -- Mo
 typedef unsigned long long  uint64;
 
 inline int Testuint256AdHoc(std::vector<std::string> vArg);
