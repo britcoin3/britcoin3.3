@@ -38,7 +38,9 @@ static const int64_t MAX_MONEY = 30000000 * COIN;
 
 static const int64_t COIN_YEAR_REWARD = 5 * CENT; // 5% per year (Used in rpcmining.cpp)
 static const int64_t MAX_MINT_PROOF_OF_STAKE = 0.05 * COIN; // old name for legacy purposes TODO rename?
-static const int64_t V2_DRIFT_PARAMS_TIME = 1457179200; // V2 chain switch, 5 March 2016 12 noon GMT (for timedrift issue)
+
+static const int64_t V2_DRIFT_PARAMS_TIME = 1457179200; // V2 timedrift switch, 5 March 2016 12 noon GMT (for timedrift issue)
+static const int64_t V3_DRIFT_PARAMS_TIME = 1480593600; // V3 timedrift switch, 1 Dec 2016 12 noon GMT (see presstab interview)
 
 static const int STAKING_CALCULATION_MODIFIER1_HEIGHT = 1065000; // switch to better interest calculating method at this blockheight
 static const int64_t STAKING_CALCULATION_MODIFIER1_INTEREST = 5; // percent
@@ -70,8 +72,11 @@ inline int64_t PastDrift(int64_t nTime)   {
     if (nTime < V2_DRIFT_PARAMS_TIME){
         return nTime - 24 * 60 * 60; // Up to 1 day ago
         }
+    else if (nTime < V3_DRIFT_PARAMS_TIME){
+        return nTime - 10 * 60; // 10 mins
+        }
     else {
-        return nTime - 10 * 60; // New time drift maximum -- 10 mins
+        return nTime - 150; // New time drift maximum -- 2.5 mins
         }
 }
 
@@ -79,8 +84,11 @@ inline int64_t FutureDrift(int64_t nTime) {
     if (nTime < V2_DRIFT_PARAMS_TIME){
         return nTime + 24 * 60 * 60; // Up to one day
         }
+    else if (nTime < V3_DRIFT_PARAMS_TIME){
+        return nTime + 10 * 60; // 10 mins
+        }
     else {
-        return nTime + 10 * 60; // New time drift maximum -- 10 mins
+        return nTime + 150; // New time drift maximum -- 2.5 mins
         }
 }
 
