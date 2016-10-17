@@ -997,15 +997,15 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
     // new code from new piggycoin to solve overflow risk with high stakes
 
     int64_t nSubsidy = 0;
-    int64_t nNextBestHeight = pindexBest->nHeight + 1;
+    int64_t nPresentHeight = pindexBest->nHeight + 1;
 
-    if (pindexBest->nHeight == INVESTOR_COIN_MINT_HEIGHT)
-    {
+    if (nPresentHeight == INVESTOR_COIN_MINT_HEIGHT)
+	{
         nSubsidy = INVESTOR_REWARD;
     }
     else
     {
-        if(nNextBestHeight >= STAKING_CALCULATION_MODIFIER1_HEIGHT)
+        if(nPresentHeight >= STAKING_CALCULATION_MODIFIER1_HEIGHT) // fixed staking method
         {
             nSubsidy = nCoinAge * STAKING_CALCULATION_MODIFIER1_INTEREST / 100 / 365;
         }
@@ -1018,8 +1018,8 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
     if (fDebug && GetBoolArg("-printcreation"))
     {
         printf(
-            "GetProofOfStakeReward(): create=%s nCoinAge=%"PRId64"    nNextBestHeight=%"PRId64"\n", 
-            FormatMoney(nSubsidy).c_str(), nCoinAge, nNextBestHeight
+            "GetProofOfStakeReward(): create=%s nCoinAge=%"PRId64"    nPresentHeight=%"PRId64"\n", 
+            FormatMoney(nSubsidy).c_str(), nCoinAge, nPresentHeight
         );
     }
 
@@ -1127,7 +1127,7 @@ unsigned int static GetNextWorkRequired_legacy(const CBlockIndex* pindexLast)
 
 static unsigned int GetNextTargetRequired_(const CBlockIndex* pindexLast, bool fProofOfStake)
 {
-    if (pindexBest->nHeight > BLOCKTIME_MODIFIER1_HEIGHT) {
+    if (pindexBest->nHeight+1 >= BLOCKTIME_MODIFIER1_HEIGHT) {
         nTargetSpacing = BLOCKTIME_MODIFIER1_TARGET;
     }
     else

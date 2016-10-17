@@ -1,4 +1,4 @@
-# britcoin3.3
+# britcoin3.2
 Visit http://britcoin.xyz for more details
 
 ====================================
@@ -7,7 +7,7 @@ Visit http://britcoin.xyz for more details
 
 - X13 Algorithm
 
-- 60 second block time
+- 60 second ==> 2.5 min block time
 
 - PoW + PoS Hybrid
 
@@ -23,7 +23,7 @@ Visit http://britcoin.xyz for more details
 
 - 5% Annual Interest on Staked coins
 
-- No IPO but 10 million coins being minted for fiat investor at block 1,020,000
+- No IPO but 10 million coins minted for fiat investor at block 1,038,000
 
 - 1% Premine for Bounties, Competitions and Giveaways (all spent now)
 

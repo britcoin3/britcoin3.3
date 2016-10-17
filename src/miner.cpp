@@ -359,7 +359,7 @@ CBlock* CreateNewBlock(CWallet* pwallet, bool fProofOfStake, int64_t* pFees)
         if (fDebug && GetBoolArg("-printpriority"))
             printf("CreateNewBlock(): total size %"PRIu64"\n", nBlockSize);
 
-        /*  commenting this out to see if it'll work without this -- Mo -- NOFOUNDATIONTEST
+        /*  removed unused code related to 'foundation' from brit 2.0 (from boostcoin, never really used in brit)
         if (!fProofOfStake)
         {
             pblock->vtx[0].vout[0].nValue = GetProofOfWorkReward(nFees) - devCoin;
