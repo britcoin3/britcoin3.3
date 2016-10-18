@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'bitcoingui.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'bitcoingui.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,12 +20,12 @@
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_BitcoinGUI_t {
     QByteArrayData data[45];
-    char stringdata[581];
+    char stringdata[580];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_BitcoinGUI_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_BitcoinGUI_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_BitcoinGUI_t qt_meta_stringdata_BitcoinGUI = {
     {
@@ -90,7 +90,7 @@ QT_MOC_LITERAL(44, 562, 17)
     "start\0end\0encryptWallet\0backupWallet\0"
     "changePassphrase\0unlockWallet\0lockWallet\0"
     "showNormalIfMinimized\0fToggleHidden\0"
-    "toggleHidden\0updateStakingIcon\0"
+    "toggleHidden\0updateStakingIcon"
 };
 #undef QT_MOC_LITERAL
 
@@ -108,35 +108,35 @@ static const uint qt_meta_data_BitcoinGUI[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    1,  159,    2, 0x0a,
-       4,    2,  162,    2, 0x0a,
-       6,    1,  167,    2, 0x0a,
-       8,    3,  170,    2, 0x0a,
-      12,    2,  177,    2, 0x0a,
-      16,    1,  182,    2, 0x0a,
-      18,    0,  185,    2, 0x08,
-      19,    0,  186,    2, 0x08,
-      20,    0,  187,    2, 0x08,
-      21,    0,  188,    2, 0x08,
-      22,    0,  189,    2, 0x08,
-      23,    0,  190,    2, 0x08,
-      24,    1,  191,    2, 0x08,
-      24,    0,  194,    2, 0x28,
-      26,    1,  195,    2, 0x08,
-      26,    0,  198,    2, 0x28,
-      27,    0,  199,    2, 0x08,
-      28,    0,  200,    2, 0x08,
-      29,    1,  201,    2, 0x08,
-      32,    3,  204,    2, 0x08,
-      36,    1,  211,    2, 0x08,
-      37,    0,  214,    2, 0x08,
-      38,    0,  215,    2, 0x08,
-      39,    0,  216,    2, 0x08,
-      40,    0,  217,    2, 0x08,
-      41,    1,  218,    2, 0x08,
-      41,    0,  221,    2, 0x28,
-      43,    0,  222,    2, 0x08,
-      44,    0,  223,    2, 0x08,
+       1,    1,  159,    2, 0x0a /* Public */,
+       4,    2,  162,    2, 0x0a /* Public */,
+       6,    1,  167,    2, 0x0a /* Public */,
+       8,    3,  170,    2, 0x0a /* Public */,
+      12,    2,  177,    2, 0x0a /* Public */,
+      16,    1,  182,    2, 0x0a /* Public */,
+      18,    0,  185,    2, 0x08 /* Private */,
+      19,    0,  186,    2, 0x08 /* Private */,
+      20,    0,  187,    2, 0x08 /* Private */,
+      21,    0,  188,    2, 0x08 /* Private */,
+      22,    0,  189,    2, 0x08 /* Private */,
+      23,    0,  190,    2, 0x08 /* Private */,
+      24,    1,  191,    2, 0x08 /* Private */,
+      24,    0,  194,    2, 0x28 /* Private | MethodCloned */,
+      26,    1,  195,    2, 0x08 /* Private */,
+      26,    0,  198,    2, 0x28 /* Private | MethodCloned */,
+      27,    0,  199,    2, 0x08 /* Private */,
+      28,    0,  200,    2, 0x08 /* Private */,
+      29,    1,  201,    2, 0x08 /* Private */,
+      32,    3,  204,    2, 0x08 /* Private */,
+      36,    1,  211,    2, 0x08 /* Private */,
+      37,    0,  214,    2, 0x08 /* Private */,
+      38,    0,  215,    2, 0x08 /* Private */,
+      39,    0,  216,    2, 0x08 /* Private */,
+      40,    0,  217,    2, 0x08 /* Private */,
+      41,    1,  218,    2, 0x08 /* Private */,
+      41,    0,  221,    2, 0x28 /* Private | MethodCloned */,
+      43,    0,  222,    2, 0x08 /* Private */,
+      44,    0,  223,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, QMetaType::Int,    3,

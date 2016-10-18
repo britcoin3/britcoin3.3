@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'walletmodel.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'walletmodel.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,12 +20,12 @@
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_WalletModel_t {
     QByteArrayData data[24];
-    char stringdata[272];
+    char stringdata[271];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_WalletModel_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_WalletModel_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_WalletModel_t qt_meta_stringdata_WalletModel = {
     {
@@ -61,7 +61,7 @@ QT_MOC_LITERAL(23, 252, 18)
     "requireUnlock\0error\0title\0message\0"
     "modal\0updateStatus\0updateTransaction\0"
     "hash\0updateAddressBook\0address\0label\0"
-    "isMine\0pollBalanceChanged\0"
+    "isMine\0pollBalanceChanged"
 };
 #undef QT_MOC_LITERAL
 
@@ -79,17 +79,17 @@ static const uint qt_meta_data_WalletModel[] = {
        5,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    4,   59,    2, 0x06,
-       7,    1,   68,    2, 0x06,
-       9,    1,   71,    2, 0x06,
-      11,    0,   74,    2, 0x06,
-      12,    3,   75,    2, 0x06,
+       1,    4,   59,    2, 0x06 /* Public */,
+       7,    1,   68,    2, 0x06 /* Public */,
+       9,    1,   71,    2, 0x06 /* Public */,
+      11,    0,   74,    2, 0x06 /* Public */,
+      12,    3,   75,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-      16,    0,   82,    2, 0x0a,
-      17,    2,   83,    2, 0x0a,
-      19,    4,   88,    2, 0x0a,
-      23,    0,   97,    2, 0x0a,
+      16,    0,   82,    2, 0x0a /* Public */,
+      17,    2,   83,    2, 0x0a /* Public */,
+      19,    4,   88,    2, 0x0a /* Public */,
+      23,    0,   97,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::LongLong, QMetaType::LongLong, QMetaType::LongLong, QMetaType::LongLong,    3,    4,    5,    6,

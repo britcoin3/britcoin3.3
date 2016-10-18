@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'optionsdialog.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'optionsdialog.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,12 +20,12 @@
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_OptionsDialog_t {
     QByteArrayData data[19];
-    char stringdata[316];
+    char stringdata[315];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_OptionsDialog_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_OptionsDialog_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_OptionsDialog_t qt_meta_stringdata_OptionsDialog = {
     {
@@ -57,7 +57,7 @@ QT_MOC_LITERAL(18, 296, 18)
     "on_cancelButton_clicked\0on_applyButton_clicked\0"
     "showRestartWarning_Proxy\0"
     "showRestartWarning_Lang\0updateDisplayUnit\0"
-    "handleProxyIpValid\0"
+    "handleProxyIpValid"
 };
 #undef QT_MOC_LITERAL
 
@@ -75,21 +75,21 @@ static const uint qt_meta_data_OptionsDialog[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   79,    2, 0x06,
+       1,    2,   79,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       6,    0,   84,    2, 0x08,
-       7,    0,   85,    2, 0x08,
-       8,    0,   86,    2, 0x08,
-       9,    0,   87,    2, 0x08,
-      10,    1,   88,    2, 0x08,
-      12,    0,   91,    2, 0x08,
-      13,    0,   92,    2, 0x08,
-      14,    0,   93,    2, 0x08,
-      15,    0,   94,    2, 0x08,
-      16,    0,   95,    2, 0x08,
-      17,    0,   96,    2, 0x08,
-      18,    2,   97,    2, 0x08,
+       6,    0,   84,    2, 0x08 /* Private */,
+       7,    0,   85,    2, 0x08 /* Private */,
+       8,    0,   86,    2, 0x08 /* Private */,
+       9,    0,   87,    2, 0x08 /* Private */,
+      10,    1,   88,    2, 0x08 /* Private */,
+      12,    0,   91,    2, 0x08 /* Private */,
+      13,    0,   92,    2, 0x08 /* Private */,
+      14,    0,   93,    2, 0x08 /* Private */,
+      15,    0,   94,    2, 0x08 /* Private */,
+      16,    0,   95,    2, 0x08 /* Private */,
+      17,    0,   96,    2, 0x08 /* Private */,
+      18,    2,   97,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::Bool,    4,    5,

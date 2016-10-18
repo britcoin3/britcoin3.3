@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'transactiontablemodel.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'transactiontablemodel.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,12 +20,12 @@
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_TransactionTableModel_t {
     QByteArrayData data[7];
-    char stringdata[92];
+    char stringdata[91];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_TransactionTableModel_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_TransactionTableModel_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_TransactionTableModel_t qt_meta_stringdata_TransactionTableModel = {
     {
@@ -39,7 +39,7 @@ QT_MOC_LITERAL(6, 73, 17)
     },
     "TransactionTableModel\0updateTransaction\0"
     "\0hash\0status\0updateConfirmations\0"
-    "updateDisplayUnit\0"
+    "updateDisplayUnit"
 };
 #undef QT_MOC_LITERAL
 
@@ -57,9 +57,9 @@ static const uint qt_meta_data_TransactionTableModel[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    2,   29,    2, 0x0a,
-       5,    0,   34,    2, 0x0a,
-       6,    0,   35,    2, 0x0a,
+       1,    2,   29,    2, 0x0a /* Public */,
+       5,    0,   34,    2, 0x0a /* Public */,
+       6,    0,   35,    2, 0x0a /* Public */,
 
  // slots: parameters
     QMetaType::Void, QMetaType::QString, QMetaType::Int,    3,    4,

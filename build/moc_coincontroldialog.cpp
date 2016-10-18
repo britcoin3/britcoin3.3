@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'coincontroldialog.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'coincontroldialog.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,12 +20,12 @@
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_CoinControlDialog_t {
     QByteArrayData data[23];
-    char stringdata[354];
+    char stringdata[353];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_CoinControlDialog_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_CoinControlDialog_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_CoinControlDialog_t qt_meta_stringdata_CoinControlDialog = {
     {
@@ -62,7 +62,7 @@ QT_MOC_LITERAL(22, 330, 22)
     "radioTreeMode\0radioListMode\0viewItemChanged\0"
     "QTreeWidgetItem*\0headerSectionClicked\0"
     "buttonBoxClicked\0QAbstractButton*\0"
-    "buttonSelectAllClicked\0"
+    "buttonSelectAllClicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -80,25 +80,25 @@ static const uint qt_meta_data_CoinControlDialog[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    1,  109,    2, 0x08,
-       3,    0,  112,    2, 0x08,
-       4,    0,  113,    2, 0x08,
-       5,    0,  114,    2, 0x08,
-       6,    0,  115,    2, 0x08,
-       7,    0,  116,    2, 0x08,
-       8,    0,  117,    2, 0x08,
-       9,    0,  118,    2, 0x08,
-      10,    0,  119,    2, 0x08,
-      11,    0,  120,    2, 0x08,
-      12,    0,  121,    2, 0x08,
-      13,    0,  122,    2, 0x08,
-      14,    0,  123,    2, 0x08,
-      15,    1,  124,    2, 0x08,
-      16,    1,  127,    2, 0x08,
-      17,    2,  130,    2, 0x08,
-      19,    1,  135,    2, 0x08,
-      20,    1,  138,    2, 0x08,
-      22,    0,  141,    2, 0x08,
+       1,    1,  109,    2, 0x08 /* Private */,
+       3,    0,  112,    2, 0x08 /* Private */,
+       4,    0,  113,    2, 0x08 /* Private */,
+       5,    0,  114,    2, 0x08 /* Private */,
+       6,    0,  115,    2, 0x08 /* Private */,
+       7,    0,  116,    2, 0x08 /* Private */,
+       8,    0,  117,    2, 0x08 /* Private */,
+       9,    0,  118,    2, 0x08 /* Private */,
+      10,    0,  119,    2, 0x08 /* Private */,
+      11,    0,  120,    2, 0x08 /* Private */,
+      12,    0,  121,    2, 0x08 /* Private */,
+      13,    0,  122,    2, 0x08 /* Private */,
+      14,    0,  123,    2, 0x08 /* Private */,
+      15,    1,  124,    2, 0x08 /* Private */,
+      16,    1,  127,    2, 0x08 /* Private */,
+      17,    2,  130,    2, 0x08 /* Private */,
+      19,    1,  135,    2, 0x08 /* Private */,
+      20,    1,  138,    2, 0x08 /* Private */,
+      22,    0,  141,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, QMetaType::QPoint,    2,

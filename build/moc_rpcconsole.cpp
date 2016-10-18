@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'rpcconsole.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'rpcconsole.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,12 +20,12 @@
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_RPCConsole_t {
     QByteArrayData data[21];
-    char stringdata[281];
+    char stringdata[280];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_RPCConsole_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_RPCConsole_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_RPCConsole_t qt_meta_stringdata_RPCConsole = {
     {
@@ -58,7 +58,7 @@ QT_MOC_LITERAL(20, 268, 11)
     "on_showCLOptionsButton_clicked\0clear\0"
     "message\0category\0html\0setNumConnections\0"
     "count\0setNumBlocks\0countOfPeers\0"
-    "browseHistory\0offset\0scrollToEnd\0"
+    "browseHistory\0offset\0scrollToEnd"
 };
 #undef QT_MOC_LITERAL
 
@@ -76,21 +76,21 @@ static const uint qt_meta_data_RPCConsole[] = {
        2,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    0,   79,    2, 0x06,
-       3,    1,   80,    2, 0x06,
+       1,    0,   79,    2, 0x06 /* Public */,
+       3,    1,   80,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       5,    0,   83,    2, 0x08,
-       6,    1,   84,    2, 0x08,
-       8,    0,   87,    2, 0x08,
-       9,    0,   88,    2, 0x08,
-      10,    0,   89,    2, 0x0a,
-      11,    3,   90,    2, 0x0a,
-      11,    2,   97,    2, 0x2a,
-      14,    1,  102,    2, 0x0a,
-      16,    2,  105,    2, 0x0a,
-      18,    1,  110,    2, 0x0a,
-      20,    0,  113,    2, 0x0a,
+       5,    0,   83,    2, 0x08 /* Private */,
+       6,    1,   84,    2, 0x08 /* Private */,
+       8,    0,   87,    2, 0x08 /* Private */,
+       9,    0,   88,    2, 0x08 /* Private */,
+      10,    0,   89,    2, 0x0a /* Public */,
+      11,    3,   90,    2, 0x0a /* Public */,
+      11,    2,   97,    2, 0x2a /* Public | MethodCloned */,
+      14,    1,  102,    2, 0x0a /* Public */,
+      16,    2,  105,    2, 0x0a /* Public */,
+      18,    1,  110,    2, 0x0a /* Public */,
+      20,    0,  113,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void,

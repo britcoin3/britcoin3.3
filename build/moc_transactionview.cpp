@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'transactionview.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'transactionview.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,12 +20,12 @@
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_TransactionView_t {
     QByteArrayData data[20];
-    char stringdata[227];
+    char stringdata[226];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_TransactionView_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_TransactionView_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_TransactionView_t qt_meta_stringdata_TransactionView = {
     {
@@ -56,7 +56,7 @@ QT_MOC_LITERAL(19, 209, 16)
     "copyLabel\0copyAmount\0copyTxID\0chooseDate\0"
     "idx\0chooseType\0changedPrefix\0prefix\0"
     "changedAmount\0amount\0exportClicked\0"
-    "focusTransaction\0"
+    "focusTransaction"
 };
 #undef QT_MOC_LITERAL
 
@@ -74,23 +74,23 @@ static const uint qt_meta_data_TransactionView[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    1,   89,    2, 0x06,
+       1,    1,   89,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       3,    1,   92,    2, 0x08,
-       4,    0,   95,    2, 0x08,
-       5,    0,   96,    2, 0x08,
-       6,    0,   97,    2, 0x08,
-       7,    0,   98,    2, 0x08,
-       8,    0,   99,    2, 0x08,
-       9,    0,  100,    2, 0x08,
-      10,    0,  101,    2, 0x08,
-      11,    1,  102,    2, 0x0a,
-      13,    1,  105,    2, 0x0a,
-      14,    1,  108,    2, 0x0a,
-      16,    1,  111,    2, 0x0a,
-      18,    0,  114,    2, 0x0a,
-      19,    1,  115,    2, 0x0a,
+       3,    1,   92,    2, 0x08 /* Private */,
+       4,    0,   95,    2, 0x08 /* Private */,
+       5,    0,   96,    2, 0x08 /* Private */,
+       6,    0,   97,    2, 0x08 /* Private */,
+       7,    0,   98,    2, 0x08 /* Private */,
+       8,    0,   99,    2, 0x08 /* Private */,
+       9,    0,  100,    2, 0x08 /* Private */,
+      10,    0,  101,    2, 0x08 /* Private */,
+      11,    1,  102,    2, 0x0a /* Public */,
+      13,    1,  105,    2, 0x0a /* Public */,
+      14,    1,  108,    2, 0x0a /* Public */,
+      16,    1,  111,    2, 0x0a /* Public */,
+      18,    0,  114,    2, 0x0a /* Public */,
+      19,    1,  115,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QModelIndex,    2,

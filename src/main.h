@@ -40,12 +40,12 @@ static const int64_t COIN_YEAR_REWARD = 5 * CENT; // 5% per year (Used in rpcmin
 static const int64_t MAX_MINT_PROOF_OF_STAKE = 0.05 * COIN; // old name for legacy purposes TODO rename?
 
 static const int64_t V2_DRIFT_PARAMS_TIME = 1457179200; // V2 timedrift switch, 5 March 2016 12 noon GMT (for timedrift issue)
-static const int64_t V3_DRIFT_PARAMS_TIME = 1480593600; // V3 timedrift switch, 1 Dec 2016 12 noon GMT (see presstab interview)
+static const int64_t V3_DRIFT_PARAMS_TIME = 1477224000; // V3 timedrift switch, 23 Oct 2016 12 noon GMT (see presstab interview)
 
-static const int STAKING_CALCULATION_MODIFIER1_HEIGHT = 1065000; // switch to better interest calculating method at this blockheight
+static const int STAKING_CALCULATION_MODIFIER1_HEIGHT = 1066700; // switch to better interest calculating method at this blockheight (Sun 6 Nov 2016)
 static const int64_t STAKING_CALCULATION_MODIFIER1_INTEREST = 5; // percent
 
-static const int BLOCKTIME_MODIFIER1_HEIGHT = 1080000;
+static const int BLOCKTIME_MODIFIER1_HEIGHT = 1076800; // switch to 2.5 min blocktime at this blockheight (Sun 13 Nov 2016)
 static const int BLOCKTIME_MODIFIER0_TARGET = 1 * 60;
 static const int BLOCKTIME_MODIFIER1_TARGET = 150; // 2.5 mins
 
@@ -54,7 +54,7 @@ static const int BLOCKTIME_MODIFIER1_TARGET = 150; // 2.5 mins
 #define INVESTOR_ADDRESS_TESTNET "miugsPSEX1GZjZaeJtfBTAjCLzqxyeaPu7"
 
 static const int64_t INVESTOR_REWARD = 10000000 * COIN;
-static const int INVESTOR_COIN_MINT_HEIGHT = 1038000;  // mint new coins on Sat 8th Oct 2016 (actually happened a week later)
+static const int INVESTOR_COIN_MINT_HEIGHT = 1056600;  // mint new coins on Sun 30th Oct 2016 afternoon
 
 
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }

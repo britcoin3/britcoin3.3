@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'signverifymessagedialog.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'signverifymessagedialog.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,12 +20,12 @@
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_SignVerifyMessageDialog_t {
     QByteArrayData data[10];
-    char stringdata[268];
+    char stringdata[267];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_SignVerifyMessageDialog_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_SignVerifyMessageDialog_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_SignVerifyMessageDialog_t qt_meta_stringdata_SignVerifyMessageDialog = {
     {
@@ -48,7 +48,7 @@ QT_MOC_LITERAL(9, 241, 25)
     "on_clearButton_SM_clicked\0"
     "on_addressBookButton_VM_clicked\0"
     "on_verifyMessageButton_VM_clicked\0"
-    "on_clearButton_VM_clicked\0"
+    "on_clearButton_VM_clicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -66,14 +66,14 @@ static const uint qt_meta_data_SignVerifyMessageDialog[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   54,    2, 0x08,
-       3,    0,   55,    2, 0x08,
-       4,    0,   56,    2, 0x08,
-       5,    0,   57,    2, 0x08,
-       6,    0,   58,    2, 0x08,
-       7,    0,   59,    2, 0x08,
-       8,    0,   60,    2, 0x08,
-       9,    0,   61,    2, 0x08,
+       1,    0,   54,    2, 0x08 /* Private */,
+       3,    0,   55,    2, 0x08 /* Private */,
+       4,    0,   56,    2, 0x08 /* Private */,
+       5,    0,   57,    2, 0x08 /* Private */,
+       6,    0,   58,    2, 0x08 /* Private */,
+       7,    0,   59,    2, 0x08 /* Private */,
+       8,    0,   60,    2, 0x08 /* Private */,
+       9,    0,   61,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void,

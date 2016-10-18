@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'bitcoinamountfield.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'bitcoinamountfield.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,12 +20,12 @@
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_BitcoinAmountField_t {
     QByteArrayData data[6];
-    char stringdata[55];
+    char stringdata[54];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_BitcoinAmountField_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_BitcoinAmountField_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_BitcoinAmountField_t qt_meta_stringdata_BitcoinAmountField = {
     {
@@ -37,7 +37,7 @@ QT_MOC_LITERAL(4, 44, 3),
 QT_MOC_LITERAL(5, 48, 5)
     },
     "BitcoinAmountField\0textChanged\0\0"
-    "unitChanged\0idx\0value\0"
+    "unitChanged\0idx\0value"
 };
 #undef QT_MOC_LITERAL
 
@@ -55,10 +55,10 @@ static const uint qt_meta_data_BitcoinAmountField[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    0,   24,    2, 0x06,
+       1,    0,   24,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       3,    1,   25,    2, 0x08,
+       3,    1,   25,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void,
@@ -134,12 +134,14 @@ int BitcoinAmountField::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         void *_v = _a[0];
         switch (_id) {
         case 0: *reinterpret_cast< qint64*>(_v) = value(); break;
+        default: break;
         }
         _id -= 1;
     } else if (_c == QMetaObject::WriteProperty) {
         void *_v = _a[0];
         switch (_id) {
         case 0: setValue(*reinterpret_cast< qint64*>(_v)); break;
+        default: break;
         }
         _id -= 1;
     } else if (_c == QMetaObject::ResetProperty) {

@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'sendcoinsdialog.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'sendcoinsdialog.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,12 +20,12 @@
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_SendCoinsDialog_t {
     QByteArrayData data[30];
-    char stringdata[546];
+    char stringdata[545];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_SendCoinsDialog_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_SendCoinsDialog_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_SendCoinsDialog_t qt_meta_stringdata_SendCoinsDialog = {
     {
@@ -76,7 +76,7 @@ QT_MOC_LITERAL(29, 518, 26)
     "coinControlClipboardBytes\0"
     "coinControlClipboardPriority\0"
     "coinControlClipboardLowOutput\0"
-    "coinControlClipboardChange\0"
+    "coinControlClipboardChange"
 };
 #undef QT_MOC_LITERAL
 
@@ -94,28 +94,28 @@ static const uint qt_meta_data_SendCoinsDialog[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,  124,    2, 0x0a,
-       3,    0,  125,    2, 0x0a,
-       4,    0,  126,    2, 0x0a,
-       5,    0,  127,    2, 0x0a,
-       7,    0,  128,    2, 0x0a,
-       8,    4,  129,    2, 0x0a,
-      13,    0,  138,    2, 0x08,
-      14,    1,  139,    2, 0x08,
-      16,    0,  142,    2, 0x08,
-      17,    1,  143,    2, 0x08,
-      18,    0,  146,    2, 0x08,
-      19,    1,  147,    2, 0x08,
-      20,    1,  150,    2, 0x08,
-      21,    0,  153,    2, 0x08,
-      22,    0,  154,    2, 0x08,
-      23,    0,  155,    2, 0x08,
-      24,    0,  156,    2, 0x08,
-      25,    0,  157,    2, 0x08,
-      26,    0,  158,    2, 0x08,
-      27,    0,  159,    2, 0x08,
-      28,    0,  160,    2, 0x08,
-      29,    0,  161,    2, 0x08,
+       1,    0,  124,    2, 0x0a /* Public */,
+       3,    0,  125,    2, 0x0a /* Public */,
+       4,    0,  126,    2, 0x0a /* Public */,
+       5,    0,  127,    2, 0x0a /* Public */,
+       7,    0,  128,    2, 0x0a /* Public */,
+       8,    4,  129,    2, 0x0a /* Public */,
+      13,    0,  138,    2, 0x08 /* Private */,
+      14,    1,  139,    2, 0x08 /* Private */,
+      16,    0,  142,    2, 0x08 /* Private */,
+      17,    1,  143,    2, 0x08 /* Private */,
+      18,    0,  146,    2, 0x08 /* Private */,
+      19,    1,  147,    2, 0x08 /* Private */,
+      20,    1,  150,    2, 0x08 /* Private */,
+      21,    0,  153,    2, 0x08 /* Private */,
+      22,    0,  154,    2, 0x08 /* Private */,
+      23,    0,  155,    2, 0x08 /* Private */,
+      24,    0,  156,    2, 0x08 /* Private */,
+      25,    0,  157,    2, 0x08 /* Private */,
+      26,    0,  158,    2, 0x08 /* Private */,
+      27,    0,  159,    2, 0x08 /* Private */,
+      28,    0,  160,    2, 0x08 /* Private */,
+      29,    0,  161,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void,

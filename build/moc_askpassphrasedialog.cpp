@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'askpassphrasedialog.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'askpassphrasedialog.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,12 +20,12 @@
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_AskPassphraseDialog_t {
     QByteArrayData data[6];
-    char stringdata[60];
+    char stringdata[59];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_AskPassphraseDialog_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_AskPassphraseDialog_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_AskPassphraseDialog_t qt_meta_stringdata_AskPassphraseDialog = {
     {
@@ -37,7 +37,7 @@ QT_MOC_LITERAL(4, 39, 7),
 QT_MOC_LITERAL(5, 47, 11)
     },
     "AskPassphraseDialog\0textChanged\0\0event\0"
-    "QEvent*\0eventFilter\0"
+    "QEvent*\0eventFilter"
 };
 #undef QT_MOC_LITERAL
 
@@ -55,9 +55,9 @@ static const uint qt_meta_data_AskPassphraseDialog[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   29,    2, 0x08,
-       3,    1,   30,    2, 0x08,
-       5,    2,   33,    2, 0x08,
+       1,    0,   29,    2, 0x08 /* Private */,
+       3,    1,   30,    2, 0x08 /* Private */,
+       5,    2,   33,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void,

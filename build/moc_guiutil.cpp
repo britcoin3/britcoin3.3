@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'guiutil.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'guiutil.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,18 +20,18 @@
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_GUIUtil__ToolTipToRichTextFilter_t {
     QByteArrayData data[1];
-    char stringdata[34];
+    char stringdata[33];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_GUIUtil__ToolTipToRichTextFilter_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_GUIUtil__ToolTipToRichTextFilter_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_GUIUtil__ToolTipToRichTextFilter_t qt_meta_stringdata_GUIUtil__ToolTipToRichTextFilter = {
     {
 QT_MOC_LITERAL(0, 0, 32)
     },
-    "GUIUtil::ToolTipToRichTextFilter\0"
+    "GUIUtil::ToolTipToRichTextFilter"
 };
 #undef QT_MOC_LITERAL
 
@@ -87,18 +87,18 @@ int GUIUtil::ToolTipToRichTextFilter::qt_metacall(QMetaObject::Call _c, int _id,
 }
 struct qt_meta_stringdata_GUIUtil__HelpMessageBox_t {
     QByteArrayData data[1];
-    char stringdata[25];
+    char stringdata[24];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_GUIUtil__HelpMessageBox_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_GUIUtil__HelpMessageBox_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_GUIUtil__HelpMessageBox_t qt_meta_stringdata_GUIUtil__HelpMessageBox = {
     {
 QT_MOC_LITERAL(0, 0, 23)
     },
-    "GUIUtil::HelpMessageBox\0"
+    "GUIUtil::HelpMessageBox"
 };
 #undef QT_MOC_LITERAL
 
