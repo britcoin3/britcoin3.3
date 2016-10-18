@@ -23,7 +23,7 @@ Visit http://britcoin.xyz for more details
 
 - 5% Annual Interest on Staked coins
 
-- No IPO but 10 million coins minted for fiat investor at block 1,038,000
+- No IPO but 10 million extra coins mint for fiat investor
 
 - 1% Premine for Bounties, Competitions and Giveaways (all spent now)
 
