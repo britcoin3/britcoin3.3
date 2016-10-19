@@ -7,7 +7,7 @@ Visit http://britcoin.xyz for more details
 
 - X13 Algorithm
 
-- 60 second ==> 2.5 min block time
+- 60 second ==> 2 min block time
 
 - PoW + PoS Hybrid
 

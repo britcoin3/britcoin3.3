@@ -45,9 +45,9 @@ static const int64_t V3_DRIFT_PARAMS_TIME = 1477224000; // V3 timedrift switch, 
 static const int STAKING_CALCULATION_MODIFIER1_HEIGHT = 1066700; // switch to better interest calculating method at this blockheight (Sun 6 Nov 2016)
 static const int64_t STAKING_CALCULATION_MODIFIER1_INTEREST = 5; // percent
 
-static const int BLOCKTIME_MODIFIER1_HEIGHT = 1076800; // switch to 2.5 min blocktime at this blockheight (Sun 13 Nov 2016)
+static const int BLOCKTIME_MODIFIER1_HEIGHT = 1076800; // switch to 2 min blocktime at this blockheight (Sun 13 Nov 2016)
 static const int BLOCKTIME_MODIFIER0_TARGET = 1 * 60;
-static const int BLOCKTIME_MODIFIER1_TARGET = 150; // 2.5 mins
+static const int BLOCKTIME_MODIFIER1_TARGET = 2 * 60; // 2 mins
 
 // Investor Addresses
 #define INVESTOR_ADDRESS "BDQnBAFxwwmpjAeccX572H8Yj3PwAncGWk"
