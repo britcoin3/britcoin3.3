@@ -998,6 +998,10 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
 
     int64_t nSubsidy = 0;
     int64_t nPresentHeight = pindexBest->nHeight + 1;
+    int64_t nRewardCoinYear;
+
+    nRewardCoinYear = MAX_MINT_PROOF_OF_STAKE; // perhaps it helps to move to a non-const non-static var?
+
 
     if (nPresentHeight == INVESTOR_COIN_MINT_HEIGHT)
 	{
@@ -1011,14 +1015,14 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
         }
         else // old, flawed method
         {
-            nSubsidy = nCoinAge * MAX_MINT_PROOF_OF_STAKE / 365 / COIN;
+            nSubsidy = nCoinAge * nRewardCoinYear / 365 / COIN;
         }
     }
 
     if (fDebug && GetBoolArg("-printcreation"))
     {
         printf(
-            "GetProofOfStakeReward(): create=%s nCoinAge=%"PRId64"    nPresentHeight=%"PRId64"\n", 
+            "GetProofOfStakeReward(): create=%s nCoinAge=%"PRId64" nPresentHeight=%"PRId64"\n", 
             FormatMoney(nSubsidy).c_str(), nCoinAge, nPresentHeight
         );
     }
