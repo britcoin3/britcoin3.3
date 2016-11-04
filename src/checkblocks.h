@@ -11,6 +11,8 @@ static const uint256 hashGenesisBlockTestNet("000018950ec725ebb4e4537bbb501fb0b1
 
 static const uint256 CheckBlock1 ("3a9d79b62df24e0560ba1907a82e2f8bd6a20d66dadfe4a2bb9b1cc41d770f9c"); // Checkpoint at block   977,750
 static const uint256 CheckBlock2 ("be819fa31fc2ed753206c911ea899a23430aa645b768ff3ae72f7cfb4159ba97"); // Checkpoint at block 1,028,500
+static const uint256 CheckBlock3 ("ae220fd625308e6782bb0d252061d82cdd78aef496b07b9f2633ff5ee390d52f"); // Checkpoint at block 1,050,000
+static const uint256 CheckBlock4 ("de00d35b03fb7b08a57c4b6dc5ad5fa416d283c3fee86c27c8bd8c6bd5e6ffd4"); // Checkpoint at block 1,056,600
 
 // Testnet Checkpoints
 // none presently

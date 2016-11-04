@@ -1131,7 +1131,8 @@ unsigned int static GetNextWorkRequired_legacy(const CBlockIndex* pindexLast)
 
 static unsigned int GetNextTargetRequired_(const CBlockIndex* pindexLast, bool fProofOfStake)
 {
-    if (pindexBest->nHeight+1 >= BLOCKTIME_MODIFIER1_HEIGHT) {
+    if (pindexBest->nHeight+1 >= BLOCKTIME_MODIFIER1_HEIGHT)
+    {
         nTargetSpacing = BLOCKTIME_MODIFIER1_TARGET;
     }
     else

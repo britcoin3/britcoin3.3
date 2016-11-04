@@ -28,6 +28,8 @@ namespace Checkpoints
         ( 0, hashGenesisBlock )
         ( 977750, CheckBlock1 )
         ( 1028500, CheckBlock2 )
+        ( 1050000, CheckBlock3 )
+        ( 1056600, CheckBlock4 )
     ;
 
     // TestNet has no checkpoints
