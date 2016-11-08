@@ -9,6 +9,8 @@ static const uint256 hashGenesisBlockTestNet("000018950ec725ebb4e4537bbb501fb0b1
 
 // Chechpoints to ensure the correct chain usage during sync
 
+static const uint256 CheckBlockE1 ("0000000002f1a811a2f60b2f76c20ae8de7fde11ed4cd75ce15d410d93f1263c"); // Checkpoint at block     2,750
+static const uint256 CheckBlockE2 ("3e70851670bee12069a21a8cf810553816151bca53b38968181bc696b132a688"); // Checkpoint at block    22,750
 static const uint256 CheckBlock1 ("3a9d79b62df24e0560ba1907a82e2f8bd6a20d66dadfe4a2bb9b1cc41d770f9c"); // Checkpoint at block   977,750
 static const uint256 CheckBlock2 ("be819fa31fc2ed753206c911ea899a23430aa645b768ff3ae72f7cfb4159ba97"); // Checkpoint at block 1,028,500
 static const uint256 CheckBlock3 ("ae220fd625308e6782bb0d252061d82cdd78aef496b07b9f2633ff5ee390d52f"); // Checkpoint at block 1,050,000
