@@ -3013,8 +3013,28 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
             pfrom->nVersion = 300;
         if (!vRecv.empty())
             vRecv >> addrFrom >> nNonce;
+        
+        //if (!vRecv.empty())
+        //    vRecv >> pfrom->strSubVer;
+        
+        //  mo-inserted code from litebar new version
         if (!vRecv.empty())
+        {
             vRecv >> pfrom->strSubVer;
+            printf("mo notice: peer connecting subver is %s",pfrom->strSubVer.c_str());
+            
+            std::size_t iFoundPosition = pfrom->strSubVer.find("oin:3.2.1");
+            if(iFoundPosition != std::string::npos)
+            {
+                printf("  -  disconnecting .....\n");
+                pfrom->fDisconnect = true;
+                return false;
+            }
+
+            printf("\n");
+            
+        }
+        
         if (!vRecv.empty())
             vRecv >> pfrom->nStartingHeight;
 

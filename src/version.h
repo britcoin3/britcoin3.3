@@ -31,7 +31,8 @@ static const int DATABASE_VERSION = 70508;
 //
 
 // v2.0 was protocol v60013
-static const int PROTOCOL_VERSION = 60014;
+// v3.3.0.0 was originally protocol v60014
+static const int PROTOCOL_VERSION = 60015;
 
 // earlier versions not supported as of Feb 2012, and are disconnected
 static const int MIN_PROTO_VERSION = 209;
