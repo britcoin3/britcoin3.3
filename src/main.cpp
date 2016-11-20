@@ -3023,17 +3023,35 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
             vRecv >> pfrom->strSubVer;
             printf("mo notice: peer connecting subver is %s",pfrom->strSubVer.c_str());
             
-            std::size_t iFoundPosition = pfrom->strSubVer.find("oin:3.2.1");
+            std::size_t iFoundPosition = pfrom->strSubVer.find("oin:3.2.");
             if(iFoundPosition != std::string::npos)
             {
                 printf("  -  disconnecting .....\n");
                 pfrom->fDisconnect = true;
                 return false;
             }
+            
+            std::size_t iFoundPosition2 = pfrom->strSubVer.find("oin:3.0.");
+            if(iFoundPosition2 != std::string::npos)
+            {
+                printf("  -  disconnecting .....\n");
+                pfrom->fDisconnect = true;
+                return false;
+            }
+            
+            std::size_t iFoundPosition3 = pfrom->strSubVer.find("oin:3.1.");
+            if(iFoundPosition3 != std::string::npos)
+            {
+                printf("  -  disconnecting .....\n");
+                pfrom->fDisconnect = true;
+                return false;
+            }
+
 
             printf("\n");
             
         }
+        
         
         if (!vRecv.empty())
             vRecv >> pfrom->nStartingHeight;
