@@ -33,7 +33,6 @@ namespace Checkpoints
         ( 1050000, CheckBlock3 )
         ( 1056600, CheckBlock4 )
         ( 1066800, CheckBlock5 )
-        ( 1066982, CheckBlock6 )
         ( 1076995, CheckBlock7 )
     ;
 
