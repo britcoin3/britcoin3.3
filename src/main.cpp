@@ -999,24 +999,31 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
     int64_t nSubsidy = 0;
     int64_t nPresentHeight = pindexBest->nHeight + 1;
     int64_t nRewardCoinYear;
+    int64_t volume = (pindexBest->nMoneySupply)/100000000;
+    
+    nRewardCoinYear = MAX_MINT_PROOF_OF_STAKE; // Only works as a non-const non-static var -- Odd
 
-    nRewardCoinYear = MAX_MINT_PROOF_OF_STAKE; // perhaps it helps to move to a non-const non-static var?
-
-
-    if (nPresentHeight == INVESTOR_COIN_MINT_HEIGHT)
-	{
-        nSubsidy = INVESTOR_REWARD;
-    }
-    else
+    if (volume < MAX_MONEY) // Don't exceed intended coin supply
     {
-        if(nPresentHeight >= STAKING_CALCULATION_MODIFIER1_HEIGHT) // fixed staking method
+        if (nPresentHeight == INVESTOR_COIN_MINT_HEIGHT)
         {
-            nSubsidy = nCoinAge * STAKING_CALCULATION_MODIFIER1_INTEREST / 100 / 365;
+            nSubsidy = INVESTOR_REWARD;
         }
-        else // old, flawed method
+        else
         {
-            nSubsidy = nCoinAge * nRewardCoinYear / 365 / COIN;
+            if(nPresentHeight >= STAKING_CALCULATION_MODIFIER1_HEIGHT) // fixed staking method
+            {
+                nSubsidy = nCoinAge * STAKING_CALCULATION_MODIFIER1_INTEREST / 100 / 365;
+            }
+            else // old, flawed method
+            {
+                nSubsidy = nCoinAge * nRewardCoinYear / 365 / COIN;
+            }
         }
+    }
+    else // 'max' coin supply has been reached, time for tail emission.  Reduce interest to 0.5%
+    {
+        nSubsidy = nCoinAge * STAKING_CALCULATION_MODIFIER1_INTEREST / 1000 / 365;
     }
 
     if (fDebug && GetBoolArg("-printcreation"))
@@ -3041,6 +3048,30 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
             
             std::size_t iFoundPosition3 = pfrom->strSubVer.find("oin:3.1.");
             if(iFoundPosition3 != std::string::npos)
+            {
+                printf("  -  disconnecting .....\n");
+                pfrom->fDisconnect = true;
+                return false;
+            }
+            
+            std::size_t iFoundPosition4 = pfrom->strSubVer.find("oin:2.");
+            if(iFoundPosition4 != std::string::npos)
+            {
+                printf("  -  disconnecting .....\n");
+                pfrom->fDisconnect = true;
+                return false;
+            }
+            
+            std::size_t iFoundPosition5 = pfrom->strSubVer.find("oin:1.");
+            if(iFoundPosition5 != std::string::npos)
+            {
+                printf("  -  disconnecting .....\n");
+                pfrom->fDisconnect = true;
+                return false;
+            }
+            
+            std::size_t iFoundPosition6 = pfrom->strSubVer.find("oin:0.");
+            if(iFoundPosition6 != std::string::npos)
             {
                 printf("  -  disconnecting .....\n");
                 pfrom->fDisconnect = true;

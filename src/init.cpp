@@ -96,7 +96,7 @@ void Shutdown(void* parg)
         delete pwalletMain;
         NewThread(ExitTimeout, NULL);
         MilliSleep(50);
-        printf("BritCoin exited\n\n");
+        printf("Britcoin exited\n\n");
         fExit = true;
 #ifndef QT_GUI
         // ensure non-UI client gets exited here, but let Bitcoin-Qt reach 'return 0;' in bitcoin.cpp
@@ -540,7 +540,7 @@ bool AppInit2()
     std::ostringstream strErrors;
 
     if (fDaemon)
-        fprintf(stdout, "BritCoin server starting\n");
+        fprintf(stdout, "Britcoin server starting\n");
 
     int64_t nStart;
 
@@ -843,10 +843,10 @@ bool AppInit2()
             uiInterface.ThreadSafeMessageBox(msg, _("BritCoin"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
         }
         else if (nLoadWalletRet == DB_TOO_NEW)
-            strErrors << _("Error loading wallet.dat: Wallet requires newer version of BritCoin") << "\n";
+            strErrors << _("Error loading wallet.dat: Wallet requires newer version of Britcoin") << "\n";
         else if (nLoadWalletRet == DB_NEED_REWRITE)
         {
-            strErrors << _("Wallet needed to be rewritten: restart BritCoin to complete") << "\n";
+            strErrors << _("Wallet needed to be rewritten: restart Britcoin to complete") << "\n";
             printf("%s", strErrors.str().c_str());
             return InitError(strErrors.str());
         }

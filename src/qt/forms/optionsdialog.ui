@@ -128,7 +128,7 @@
           <string>Automatically start BritCoin after logging in to the system.</string>
          </property>
          <property name="text">
-          <string>&amp;Start BritCoin on system login</string>
+          <string>&amp;Start Britcoin on system login</string>
          </property>
         </widget>
        </item>
@@ -349,7 +349,7 @@
          <item>
           <widget class="QValueComboBox" name="lang">
            <property name="toolTip">
-            <string>The user interface language can be set here. This setting will take effect after restarting BritCoin.</string>
+            <string>The user interface language can be set here. This setting will take effect after restarting Britcoin.</string>
            </property>
           </widget>
          </item>
@@ -382,7 +382,7 @@
        <item>
         <widget class="QCheckBox" name="displayAddresses">
          <property name="toolTip">
-          <string>Whether to show BritCoin addresses in the transaction list or not.</string>
+          <string>Whether to show Britcoin addresses in the transaction list or not.</string>
          </property>
          <property name="text">
           <string>&amp;Display addresses in transaction list</string>
@@ -395,7 +395,7 @@
           <string>Whether to show coin control features or not.</string>
          </property>
          <property name="text">
-          <string>Display coin &amp;control features (experts only!)</string>
+          <string>Display coin &amp;control features</string>
          </property>
         </widget>
        </item>

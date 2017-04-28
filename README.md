@@ -1,15 +1,15 @@
 # britcoin3.3
-Visit http://britcoin.xyz for more details
+Visit https://britcoin.com for more details
 
 ====================================
 
-- BritCoin (BRIT)
+- Britcoin (BRIT)
 
 - X13 Algorithm
 
 - 60 second ==> 2 min block time
 
-- PoW + PoS Hybrid
+- PoW + PoS hybrid
 
 - PoW ended at Block 20,000, estimated 7-10 days mining
 
@@ -21,13 +21,13 @@ Visit http://britcoin.xyz for more details
 
 - 2.5 years max stake age (being introduced)
 
-- 5% Annual Interest on Staked coins
+- 5% annual interest on staked coins, 0.5% interest after supply cap reached
 
 - No IPO but 10 million extra coins mint for fiat investor
 
-- 1% Premine for Bounties, Competitions and Giveaways (all spent now)
+- 1% premine for bounties, competitions and giveaways (all spent now)
 
-- 110 Block confirmations to maturity (for mined blocks)
+- 110 block confirmations to maturity (for mined blocks)
 
 - 6 block confirmations for coin transfers
 

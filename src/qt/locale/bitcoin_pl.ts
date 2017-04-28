@@ -3,7 +3,7 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BritCoin</source>
+        <source>About Britcoin</source>
         <translation>O BritCoin</translation>
     </message>
     <message>
@@ -63,7 +63,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BritCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Britcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Tutaj znajdują się twoje adresy do odbierania wpłat.
 Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo pochodzi wpłata.</translation>
     </message>
@@ -79,7 +79,7 @@ Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo 
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BritCoin address</source>
+        <source>Sign a message to prove you own a Britcoin address</source>
         <translation>Podpisz wiadomość by udowodnić, że jesteś właścicielem adresu BritCoin</translation>
     </message>
     <message>
@@ -94,7 +94,7 @@ Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo 
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BritCoin address</source>
+        <source>Verify a message to ensure it was signed with a specified Britcoin address</source>
         <translation>Zweryfikuj wiadomość, w celu zapewnienia, że została podpisana z określonego adresu BritCoin</translation>
     </message>
     <message>
@@ -376,7 +376,7 @@ Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo 
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about BritCoin</source>
+        <source>Show information about Britcoin</source>
         <translation>Pokaż informacje dotyczące BritCoin</translation>
     </message>
     <message>
@@ -426,7 +426,7 @@ Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo 
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a BritCoin address</source>
+        <source>Send coins to a Britcoin address</source>
         <translation>Wyślij monety na adres BritCoin</translation>
     </message>
     <message>
@@ -481,7 +481,7 @@ Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo 
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About BritCoin</source>
+        <source>&amp;About Britcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -583,12 +583,12 @@ Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo 
     </message>
     <message>
         <location line="-312"/>
-        <source>About BritCoin card</source>
+        <source>About Britcoin card</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about BritCoin card</source>
+        <source>Show information about Britcoin card</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -668,7 +668,7 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BritCoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Britcoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1048,7 +1048,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BritCoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Britcoin address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1265,7 +1265,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BritCoin addresses in the transaction list or not.</source>
+        <source>Whether to show Britcoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1751,7 +1751,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a BritCoin address (e.g. Sjz75uKHzUQJnSdzvpiigEGxseKkDhQToX)</source>
+        <source>Enter a Britcoin address (e.g. BDQnBAFxwwmpjAeccX572H8Yj3PwAncGWk)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1851,7 +1851,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid BritCoin address</source>
+        <source>WARNING: Invalid Britcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1895,7 +1895,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. Sjz75uKHzUQJnSdzvpiigEGxseKkDhQToX)</source>
+        <source>The address to send the payment to  (e.g. BDQnBAFxwwmpjAeccX572H8Yj3PwAncGWk)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1925,7 +1925,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BritCoin address (e.g. Sjz75uKHzUQJnSdzvpiigEGxseKkDhQToX)</source>
+        <source>Enter a Britcoin address (e.g. BDQnBAFxwwmpjAeccX572H8Yj3PwAncGWk)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1949,7 +1949,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Sjz75uKHzUQJnSdzvpiigEGxseKkDhQToX)</source>
+        <source>The address to sign the message with (e.g. BDQnBAFxwwmpjAeccX572H8Yj3PwAncGWk)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1986,7 +1986,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BritCoin address</source>
+        <source>Sign the message to prove you own this Britcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2013,12 +2013,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Sjz75uKHzUQJnSdzvpiigEGxseKkDhQToX)</source>
+        <source>The address the message was signed with (e.g. BDQnBAFxwwmpjAeccX572H8Yj3PwAncGWk)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BritCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Britcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2029,7 +2029,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BritCoin address (e.g. Sjz75uKHzUQJnSdzvpiigEGxseKkDhQToX)</source>
+        <source>Enter a Britcoin address (e.g. BDQnBAFxwwmpjAeccX572H8Yj3PwAncGWk)</source>
         <translation type="unfinished"/>
     </message>
     <message>

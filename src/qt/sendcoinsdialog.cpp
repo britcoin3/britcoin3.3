@@ -37,7 +37,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
 
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a BritCoin address (e.g. Sjz75uKHzUQJnSdzvpiigEGxseKkDhQToX)"));
+    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a Britcoin address (e.g. BDQnBAFxwwmpjAeccX572H8Yj3PwAncGWk)"));
 #endif
 
     addEntry();

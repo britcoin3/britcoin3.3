@@ -5,9 +5,9 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 3.0.0.0
+!define VERSION 3.3.0.3
 !define COMPANY "Britcoin project"
-!define URL http://www.britcoin.xyz/
+!define URL https://www.britcoin.com/
 
 # MUI Symbol Definitions
 !define MUI_ICON "../share/pixmaps/novacoin.ico"
@@ -45,7 +45,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile britcoin-3.0.0.0-win32-setup.exe
+OutFile britcoin-3.0.0.3-win32-setup.exe
 InstallDir $PROGRAMFILES\Britcoin
 CRCCheck on
 XPStyle on

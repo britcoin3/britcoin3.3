@@ -3,7 +3,7 @@ DEFINES += FN1 FN2
 FN1 = britcoin
 win32:FN2 = -qt-win-v
 macx:FN2 = -qt-osx-v
-VERSION = 3.3.0.2
+VERSION = 3.3.0.3
 TARGET = $$FN1$$FN2$$VERSION
 INCLUDEPATH += src src/json \
     src/qt \

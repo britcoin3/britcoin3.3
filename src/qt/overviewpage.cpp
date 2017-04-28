@@ -158,13 +158,13 @@ void OverviewPage::unlockWallet()
         dlg.setModel(model);
         if(dlg.exec() == QDialog::Accepted)
         {
-            ui->unlockWalletButton->setText(QString("Lock Wallet"));
+            // ui->unlockWalletButton->setText(QString("Lock Wallet"));
         }
     }
     else
     {
         model->setWalletLocked(true);
-        ui->unlockWalletButton->setText(QString("Unlock Wallet"));
+        // ui->unlockWalletButton->setText(QString("Unlock Wallet"));
     }
 }
 
@@ -195,16 +195,16 @@ void OverviewPage::setModel(WalletModel *model)
         WalletModel::EncryptionStatus status = model->getEncryptionStatus();
         if(status == WalletModel::Unencrypted)
         {
-            ui->unlockWalletButton->setDisabled(true);
-            ui->unlockWalletButton->setText(QString("Wallet is not encrypted!"));
+            // ui->unlockWalletButton->setDisabled(true);
+            // ui->unlockWalletButton->setText(QString("Wallet is not encrypted!"));
 
         }
 
         else
         {
-            ui->unlockWalletButton->setText(QString("Unlock wallet"));
+            // ui->unlockWalletButton->setText(QString("Unlock wallet"));
         }
-        connect(ui->unlockWalletButton, SIGNAL(clicked()), this, SLOT(unlockWallet()));
+        // connect(ui->unlockWalletButton, SIGNAL(clicked()), this, SLOT(unlockWallet()));
     }
 
     // update the display unit, to not use the default ("BTC")
